@@ -1,22 +1,19 @@
 #include <stdio.h>
-#include <stdlib.h> // Se agrega para la funcion system()
+#include <stdlib.h> 
 
-// Estructura para almacenar los datos de un estudiante.
 typedef struct {
     int codigo;
     float nota;
 } Estudiante;
 
-// Prototipos de funciones recursivas y auxiliares.
 float encontrarNotaMaxima_recursivo(Estudiante estudiantes[], int tamano);
 float calcularSuma_recursivo(Estudiante estudiantes[], int tamano);
 void selectionSort_recursivo(Estudiante estudiantes[], int tamano, int indice_actual);
 void intercambiar(Estudiante* a, Estudiante* b);
 void mostrarMenu();
 
-// --- Función principal del programa ---
 int main() {
-    // Datos de los estudiantes predefinidos.
+   
     Estudiante lista_estudiantes[] = {
         {2024101, 4.5},
         {2024102, 3.2},
@@ -65,8 +62,6 @@ int main() {
 
     return 0;
 }
-
-// --- Implementación de funciones auxiliares y recursivas ---
 
 void mostrarMenu() {
     printf("\n--- Gestion de Notas ---\n");
