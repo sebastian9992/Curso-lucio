@@ -7,7 +7,7 @@ struct Cola {
     char destino[20];
     int cantidad;
     struct Cola *sig;
-};
+};  
 
 struct Nodo {
     int fecha;
