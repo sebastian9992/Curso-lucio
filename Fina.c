@@ -1,4 +1,4 @@
-// INTEGRANTES:Wendy calzada Quintero y Juan Sebastian Murillo Bonilla
+// INTEGRANTES: Wendy calzada Quintero y Juan Sebastian Murillo Bonilla
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
